@@ -29,7 +29,7 @@ test.describe('Flujo de Autenticacion (Login)', () => {
     await page.getByRole('button', { name: 'Iniciar Sesión' }).click();
 
     // Verificar que se muestre un mensaje de error
-    await expect(page.getByText('Credenciales incorrectas')).toBeVisible();
+    await expect(page.getByText('Credenciales inválidas')).toBeVisible();
 
     // Verificar que el usuario permanece en la página de login
     await expect(page).toHaveURL('/');
