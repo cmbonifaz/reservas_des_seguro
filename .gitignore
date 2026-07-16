@@ -223,6 +223,9 @@ local.properties
 logs/
 *.log
 
+# maven
+backend/maven/
+
 # Temporary files
 temp/
 tmp/
