@@ -122,7 +122,6 @@ dist
 
 # Gatsby files
 .cache/
-public
 
 # Vuepress build output
 .vuepress/dist
@@ -234,3 +233,9 @@ tmp/
 application-local.properties
 application-dev.properties
 application-secret.properties
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
+frontend/playwright/.cache/
+frontend/blob-report/
